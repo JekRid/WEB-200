@@ -25,7 +25,7 @@ if (isset($_POST["Send"])){
 </head>
 <body>
 <div class="login-page">
-  <div class="form">
+  <div class="form" >
     <form class="login-form"  method="POST">
       <input type="text" placeholder="username" name="User"/>
       <input type="password" placeholder="password" name="Pass"/>
