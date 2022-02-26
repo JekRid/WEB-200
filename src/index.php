@@ -3,7 +3,7 @@ if (isset($_POST["Send"])){
         $user=$_POST["User"];
         $pass=$_POST["Pass"];
 
-        if(strcmp($user, "Admin") == 0 and strcmp($pass, "ZVDCTF{S3CREt_pA5SwOrD_FR0m_the_5upERU53r_1n_7hE_lOgS}") == 0){
+        if(strcmp($user, "Admin") == 0 and strcmp($pass, "***********") == 0){
                 header("refresh: 0.001; url = 12654132asd4r56q1fqr456f1aqf4q5jsdafafkashfasjkfsadfhasfjashj6fqf4q56fa1gf56w7t4eq56.php>                exit;
         }
         else{
