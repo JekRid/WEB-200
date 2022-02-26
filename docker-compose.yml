@@ -2,18 +2,18 @@ version: '3'
 services:
   web:
     image: nginx:latest
-    container_name: dir
+    container_name: Auth
     links:
-      - dir_php
+      - Auth_php
     volumes:
       - ./src:/var/www/html
       - ./nginx/:/etc/nginx/conf.d/
     ports:
       - "93:80"
 
-  dir_php:
+  Auth_php:
     image: php:7.2-fpm
     volumes:
       - ./src:/var/www/html
     ports:
-      - "9003:9000"
+      - "9004:9000"
